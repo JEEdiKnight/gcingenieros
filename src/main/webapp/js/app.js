@@ -7,8 +7,7 @@
         this.setTab = function (tabId) {
             this.tab = tabId;
             if (tabId === 5 && !this.map) {
-                var myLatLng = new google.maps.LatLng(-12.074700, -77.032431);
-                var mapOptions = {
+                var myLatLng = new google.maps.LatLng(-12.074700, -77.032431), mapOptions = {
                     center: myLatLng,
                     zoom: 16,
                     mapTypeId: google.maps.MapTypeId.ROADMAP
