@@ -1,0 +1,39 @@
+.menu {
+                background-image: url('images/ciudad.JPG');
+                background-size: cover;
+            }
+            .font {
+                color: white;
+            }
+            .title {
+                text-align: left;
+            }
+            .subtitle {
+                text-align: right;
+            }
+            .background-color-title {
+                background-color: #1F2158;
+            }
+            .footer{
+                background-color: #C0C0C0;
+                color: black;
+                bottom: 0;
+                position: fixed;
+                width: 100%;
+            }
+            .body {
+                background-color: #08448D;
+            }
+            .image-displayed {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                vertical-align: middle;
+            }
+            .tab {
+                margin-bottom: 20px;
+            }
+            #map-canvas { 
+                height: 400px;
+                border: 2px solid;
+            }

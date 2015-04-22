@@ -1,0 +1,64 @@
+.menu {
+    background-image: url('../images/ciudad.JPG');
+    background-size: cover;
+}
+
+.font {
+    color: white;
+}
+
+.title {
+    text-align: left;
+}
+
+.subtitle {
+    text-align: right;
+}
+
+.background-color-title {
+    background-color: #1F2158;
+}
+
+.main {
+    background-color: white;
+}
+
+.footer {
+    background-color: #C0C0C0;
+    color: black;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.body {
+    background-color: #08448D;
+    margin-bottom: 30px;
+}
+
+.image-displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+#map-canvas {
+    height: 400px;
+    border: 2px solid;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.producto {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+}
+
+.imagen-producto {
+    max-height: 100%;
+    max-width: 100%;
+}
