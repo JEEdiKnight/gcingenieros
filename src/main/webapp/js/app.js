@@ -1,4 +1,7 @@
 (function () {
+    $(document).ready(function () {
+        $.slidebars();
+    });
     var app = angular.module('myApp', []);
 
     app.controller('TabController', function () {
@@ -7,13 +10,14 @@
         this.setTab = function (tabId) {
             this.tab = tabId;
             if (tabId === 5 && !this.map) {
-                var myLatLng = new google.maps.LatLng(-12.074700, -77.032431), mapOptions = {
-                    center: myLatLng,
-                    zoom: 16,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
+                var myLatLng = new google.maps.LatLng(-12.074700, -77.032431),
+                    mapOptions = {
+                        center: myLatLng,
+                        zoom: 16,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
                 this.map = new google.maps.Map(document.getElementById('map-canvas'),
-                                               mapOptions);
+                    mapOptions);
                 var marker = new google.maps.Marker({
                     position: myLatLng,
                     map: this.map,
@@ -28,7 +32,7 @@
             return this.tab === tabId;
         };
     });
-    app.controller('QuienesSomosTabController', function() {
+    app.controller('QuienesSomosTabController', function () {
         this.qsTab = 1;
 
         this.setQSTab = function (tabId) {

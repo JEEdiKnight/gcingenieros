@@ -62,3 +62,140 @@
     max-height: 100%;
     max-width: 100%;
 }
+
+.navicon-line {
+    width: 24px;
+    height: 4px;
+    border-radius: 1px;
+    margin-bottom: 3px;
+    background-color: #fff;
+}
+
+.navbar .sb-toggle-left {
+    width: 58px;
+    float: left;
+    padding: 14px;
+}
+/* ---------------
+ * 003 - Slidebars
+ */
+
+.sb-slidebar {
+    background-color: #222222;
+    /* Background colour. */
+    
+    color: #e8e8e8;
+    /* Text colour. */
+}
+
+.sb-slidebar a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.sb-slidebar a:hover {
+    color: #337ab7;
+    /* Link hover colour. */
+    
+    text-decoration: underline;
+}
+/* Main Menu */
+
+.sb-menu {
+    /* Apply to <ul> or <ol>. */
+    
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.sb-menu li {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    /* Will lighten any background colour you set. */
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    /* Will darken any background colour you set. */
+}
+
+.sb-menu > li:first-child {
+    border-top: none;
+    /* Removes top border from first list item.. */
+}
+
+.sb-menu > li:last-child {
+    border-bottom: none;
+    /* Removed bottom border from last list item. */
+}
+
+.sb-menu li a {
+    width: 100%;
+    /* Makes links full width. */
+    
+    display: inline-block;
+    padding: 1em;
+    /* Creates an even padding the same size as your font. */
+    
+    color: #f2f2f2;
+}
+
+.sb-menu li a:hover {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.05);
+    /* Will lighten any background colour you set. */
+}
+/* Borders */
+
+.sb-left .sb-menu li a {
+    border-left: 3px solid transparent;
+}
+
+.sb-left .sb-menu li a:hover {
+    border-left: 3px solid;
+    /* Removes transparent colour, so border colour will be the same as link hover colour. */
+}
+
+.sb-right .sb-menu li a {
+    border-right: 3px solid transparent;
+}
+
+.sb-right .sb-menu li a:hover {
+    border-right: 3px solid;
+    /* Removes transparent colour, so border colour will be the same as link hover colour. */
+}
+/* Left */
+
+.sb-menu li .sb-open-right,
+.sb-menu li small {
+    display: inline-block;
+    padding: 14px;
+}
+
+.sb-menu li img {
+    margin: 14px;
+}
+/* Slidebar Type */
+
+.sb-slidebar,
+.sb-slidebar h3 {
+    color: #F0F0F0;
+}
+
+.sb-slidebar ul.sb-nav li a {
+    color: #DEDEDE;
+}
+
+.sb-slidebar ul.sb-nav li a:hover {
+    color: #C7C7C7;
+    text-decoration: none;
+}
+
+.sb-slidebar ul.sb-nav li span:hover {
+    color: #C7C7C7;
+}
+
+#sb-site {
+    background-color: transparent;
+}
