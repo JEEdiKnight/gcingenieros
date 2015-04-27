@@ -1,6 +1,8 @@
 .menu {
     background-image: url('../images/ciudad.JPG');
     background-size: cover;
+    z-index: 2;
+    margin-bottom: 0px;
 }
 
 .font {
@@ -86,6 +88,8 @@
     
     color: #e8e8e8;
     /* Text colour. */
+    
+    z-index: 0;
 }
 
 .sb-slidebar a {
@@ -197,5 +201,5 @@
 }
 
 #sb-site {
-    background-color: transparent;
+    background-color: #08448D;
 }

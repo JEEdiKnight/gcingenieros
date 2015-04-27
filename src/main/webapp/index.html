@@ -51,59 +51,60 @@
                     </h3>
         </div>
     </nav>
-    <div id="sb-site" class="container">
-        <main>
-            <section ng-show="tab.isSet(1)">
-                <div class="hidden-xs col-sm-4 col-md-4 col-lg-4">
-                    <img border="0" src="images/ELECTRONICS.jpg" width="100%" />
-                </div>
-                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                    <div class="row">
-                        <h2>BIENVENIDOS A GC INGENIEROS CONSORCIO</h2>
+    <div id="sb-site">
+        <div class="container">
+            <main>
+                <section ng-show="tab.isSet(1)">
+                    <div class="hidden-xs col-sm-4 col-md-4 col-lg-4">
+                        <img border="0" src="images/ELECTRONICS.jpg" width="100%" />
                     </div>
-                    <div class="row">
-                        <p>
-                            Empresa Peruana especializada en protecciones el&eacute;ctricas y electr&oacute;nicas que proporciona equipos de avanzada tecnol&oacute;gica y servicios de mantenimiento, ejecutados de forma responsable y honestidad profesional
-                        </p>
-                        <p>
-                            Todos los trabajos son realizados integralmente bajo los est&aacute;ndares de calidad, cuidado del ambiente y seguridad; ya sea de Asesor&iacute;a, Ventas, Fabricaciones de estabilizadores, UPS, Alquiler, Reparaciones electr&oacute;nicas en general, peritajes y valuaciones electr&oacute;nicos, supervisiones de obra, instrumentaci&oacute;n de turbinas a gas, teniendo en cuenta en proteger y cuidar su inversi&oacute;n.
-                        </p>
-                        <p>
-                            La confiabilidad y economía de los equipos y servicios es muy importante para ofrecer a nuestros clientes.
-                        </p>
-                        <p>
-                            Usted ya dio el primer paso, le invitamos a recorrer nuestra web.
-                        </p>
+                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                        <div class="row">
+                            <h2>BIENVENIDOS A GC INGENIEROS CONSORCIO</h2>
+                        </div>
+                        <div class="row">
+                            <p>
+                                Empresa Peruana especializada en protecciones el&eacute;ctricas y electr&oacute;nicas que proporciona equipos de avanzada tecnol&oacute;gica y servicios de mantenimiento, ejecutados de forma responsable y honestidad profesional
+                            </p>
+                            <p>
+                                Todos los trabajos son realizados integralmente bajo los est&aacute;ndares de calidad, cuidado del ambiente y seguridad; ya sea de Asesor&iacute;a, Ventas, Fabricaciones de estabilizadores, UPS, Alquiler, Reparaciones electr&oacute;nicas en general, peritajes y valuaciones electr&oacute;nicos, supervisiones de obra, instrumentaci&oacute;n de turbinas a gas, teniendo en cuenta en proteger y cuidar su inversi&oacute;n.
+                            </p>
+                            <p>
+                                La confiabilidad y economía de los equipos y servicios es muy importante para ofrecer a nuestros clientes.
+                            </p>
+                            <p>
+                                Usted ya dio el primer paso, le invitamos a recorrer nuestra web.
+                            </p>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section ng-show="tab.isSet(2)" ng-controller="QuienesSomosTabController as qsTab">
-                <div class="col-md-6">
-                    <div class="row">
-                        <h2>QUIENES SOMOS</h2>
-                    </div>
-                    <div class="row">
-                        <ul class="nav nav-tabs">
-                            <li role="presentation" ng-class="{active:qsTab.isQSSet(1)}">
-                                <a href ng-click="qsTab.setQSTab(1)">Perfil</a>
-                            </li>
-                            <li role="presentation" ng-class="{active:qsTab.isQSSet(2)}">
-                                <a href ng-click="qsTab.setQSTab(2)">Visi&oacute;n</a>
-                            </li>
-                            <li role="presentation" ng-class="{active:qsTab.isQSSet(3)}">
-                                <a href ng-click="qsTab.setQSTab(3)">Misi&oacute;n</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="row" ng-show="qsTab.isQSSet(1)">
-                        <h4>
+                </section>
+                <section ng-show="tab.isSet(2)" ng-controller="QuienesSomosTabController as qsTab">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <h2>QUIENES SOMOS</h2>
+                        </div>
+                        <div class="row">
+                            <ul class="nav nav-tabs">
+                                <li role="presentation" ng-class="{active:qsTab.isQSSet(1)}">
+                                    <a href ng-click="qsTab.setQSTab(1)">Perfil</a>
+                                </li>
+                                <li role="presentation" ng-class="{active:qsTab.isQSSet(2)}">
+                                    <a href ng-click="qsTab.setQSTab(2)">Visi&oacute;n</a>
+                                </li>
+                                <li role="presentation" ng-class="{active:qsTab.isQSSet(3)}">
+                                    <a href ng-click="qsTab.setQSTab(3)">Misi&oacute;n</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row" ng-show="qsTab.isQSSet(1)">
+                            <h4>
                             GC  Ingenieros  Consorcio SAC es una empresa peruana especializada en protecciones el&eacute;ctricas y electr&oacute;nicas, con amplia experiencia de asesorarles de forma integral con ingenieros electr&oacute;nicos y el&eacute;ctricos colegiados.</h4>
-                    </div>
-                    <div class="row" ng-show="qsTab.isQSSet(2)">
-                        <h4>Ser una empresa comprometida a brindar soluciones tecnol&oacute;gicas el&eacute;ctricas-electr&oacute;nicas con altos est&aacute;ndares de calidad y servicios con el mejoramiento y el cumplimiento de nuestras premisas y crecimiento de la empresa.</h4>
-                    </div>
-                    <div class="row" ng-show="qsTab.isQSSet(3)">
-                        <h4>
+                        </div>
+                        <div class="row" ng-show="qsTab.isQSSet(2)">
+                            <h4>Ser una empresa comprometida a brindar soluciones tecnol&oacute;gicas el&eacute;ctricas-electr&oacute;nicas con altos est&aacute;ndares de calidad y servicios con el mejoramiento y el cumplimiento de nuestras premisas y crecimiento de la empresa.</h4>
+                        </div>
+                        <div class="row" ng-show="qsTab.isQSSet(3)">
+                            <h4>
                                 <p>
                                 Proteger y evitar riesgos a nuestros clientes y sus equipos el&eacute;ctricos y electr&oacute;nicos debido a perturbaciones el&eacute;ctricas.
                             </p>
@@ -114,136 +115,136 @@
                                 Mantener a nuestros clientes satisfechos de una labor bien ejecutada en forma honesta y responsable.
                             </p>
                             </h4>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <img class="image-displayed" ng-show="qsTab.isQSSet(1)" border="0" width="227" height="284" src="images/empresario.jpg" />
-                    <img class="image-displayed" ng-show="qsTab.isQSSet(2)" border="0" src="images/vision.jpg" hspace="10" width="226" height="247" />
-                    <img class="image-displayed" ng-show="qsTab.isQSSet(3)" border="0" src="images/mision.jpg" width="226" height="217" hspace="10">
-                </div>
-            </section>
-            <section ng-show="tab.isSet(3)">
-                <div class="col-md-12">
-                    <h2>PRODUCTOS</h2>
-                </div>
-                <div class="col-md-12">
-                    Fabricamos productos de marca ISOENERGY, Reparamos y Comercializamos UPS, Estabilizadores de voltaje monof&aacute;sicos y trif&aacute;sicos, Transformadores de aislamiento, Fuentes de poder-alimentaci&oacute;n-cargadores de bater&iacute;as, l&aacute;mparas de emergencia, Inversores DC/AC, Bater&iacute;as para UPS, Construcci&oacute;n y mantenimiento de Pozos a tierra, Protocolos/Mediciones de pozos a tierra, C&aacute;lculos de m&aacute;xima demanda para ampliaciones de carga, construcciones de planos el&eacute;ctricos, Instalaciones el&eacute;ctricas para centros de c&oacute;mputo (tableros el&eacute;ctricos, tomacorrientes, cableados, etc.), Supervisiones, asesoramientos en proyectos, especialistas en instrumentaci&oacute;n de Turbinas a gas, con el cumplimiento de las Normas del C&oacute;digo de Electricidad del Per&uacute; y de las normas ISO 9001, 14001, 18001, con el objetivo de cumplir ante cualquier Inspecci&oacute;n por Defensa Civil.
-                    <br/>
-                    <br/>
-                </div>
-                <div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 producto">
-                            <div class="col-sm-6 ">
-                                <h4>Estabilizadores Monof&aacute;sicos y Trif&aacute;sicos (Fabricantes)</h4> S&oacute;lidos, Ferroresonantes, Semipack
-                            </div>
-                            <div class="col-sm-6">
-                                <img border="0" class="imagen-producto" src="images/100p_Est_Solido.JPG" />
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 producto">
-                            <div class="col-sm-6">
-                                <h4>Fuentes de Poder (Fabricantes)</h4> Para usos de asistencia de marcadores de personal y aplicaciones industriales
-                            </div>
-                            <div class="col-sm-6">
-                                <img border="0" class="imagen-producto" src="images/Fuente_Poder.jpg" />
-                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 producto">
-                            <div class="col-sm-6">
-                                <h4>L&aacute;mparas de Emergencia (Fabricantes)</h4> Con luz halogenada, largo alcance y gran tiempo de autonom&iacute;a
+                    <div class="col-md-6">
+                        <img class="image-displayed" ng-show="qsTab.isQSSet(1)" border="0" width="227" height="284" src="images/empresario.jpg" />
+                        <img class="image-displayed" ng-show="qsTab.isQSSet(2)" border="0" src="images/vision.jpg" hspace="10" width="226" height="247" />
+                        <img class="image-displayed" ng-show="qsTab.isQSSet(3)" border="0" src="images/mision.jpg" width="226" height="217" hspace="10">
+                    </div>
+                </section>
+                <section ng-show="tab.isSet(3)">
+                    <div class="col-md-12">
+                        <h2>PRODUCTOS</h2>
+                    </div>
+                    <div class="col-md-12">
+                        Fabricamos productos de marca ISOENERGY, Reparamos y Comercializamos UPS, Estabilizadores de voltaje monof&aacute;sicos y trif&aacute;sicos, Transformadores de aislamiento, Fuentes de poder-alimentaci&oacute;n-cargadores de bater&iacute;as, l&aacute;mparas de emergencia, Inversores DC/AC, Bater&iacute;as para UPS, Construcci&oacute;n y mantenimiento de Pozos a tierra, Protocolos/Mediciones de pozos a tierra, C&aacute;lculos de m&aacute;xima demanda para ampliaciones de carga, construcciones de planos el&eacute;ctricos, Instalaciones el&eacute;ctricas para centros de c&oacute;mputo (tableros el&eacute;ctricos, tomacorrientes, cableados, etc.), Supervisiones, asesoramientos en proyectos, especialistas en instrumentaci&oacute;n de Turbinas a gas, con el cumplimiento de las Normas del C&oacute;digo de Electricidad del Per&uacute; y de las normas ISO 9001, 14001, 18001, con el objetivo de cumplir ante cualquier Inspecci&oacute;n por Defensa Civil.
+                        <br/>
+                        <br/>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 producto">
+                                <div class="col-sm-6 ">
+                                    <h4>Estabilizadores Monof&aacute;sicos y Trif&aacute;sicos (Fabricantes)</h4> S&oacute;lidos, Ferroresonantes, Semipack
+                                </div>
+                                <div class="col-sm-6">
+                                    <img border="0" class="imagen-producto" src="images/100p_Est_Solido.JPG" />
+                                </div>
                             </div>
-                            <div class="col-sm-6">
-                                <img border="0" class="imagen-producto" src="images/Lampara.JPG" />
+                            <div class="col-sm-12 col-md-6 producto">
+                                <div class="col-sm-6">
+                                    <h4>Fuentes de Poder (Fabricantes)</h4> Para usos de asistencia de marcadores de personal y aplicaciones industriales
+                                </div>
+                                <div class="col-sm-6">
+                                    <img border="0" class="imagen-producto" src="images/Fuente_Poder.jpg" />
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 producto">
-                            <div class="col-sm-6">
-                                <h4>Transformadores Aislados (Fabricantes) </h4> Para centros de c&oacute;mputo polarizados
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 producto">
+                                <div class="col-sm-6">
+                                    <h4>L&aacute;mparas de Emergencia (Fabricantes)</h4> Con luz halogenada, largo alcance y gran tiempo de autonom&iacute;a
+                                </div>
+                                <div class="col-sm-6">
+                                    <img border="0" class="imagen-producto" src="images/Lampara.JPG" />
+                                </div>
                             </div>
-                            <div class="col-sm-6">
-                                <img border="0" class="imagen-producto" src="images/Transformador_aislado.jpg">
+                            <div class="col-sm-12 col-md-6 producto">
+                                <div class="col-sm-6">
+                                    <h4>Transformadores Aislados (Fabricantes) </h4> Para centros de c&oacute;mputo polarizados
+                                </div>
+                                <div class="col-sm-6">
+                                    <img border="0" class="imagen-producto" src="images/Transformador_aislado.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 producto">
+                                <div class="col-sm-6">
+                                    <h4>Tableros El&eacute;ctricos (Fabricantes)</h4> Para distribuci&oacute;n el&eacute;ctrica
+                                </div>
+                                <div class="col-sm-6">
+                                    <img border="0" class="imagen-producto" src="images/tablero.JPG">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 producto">
+                                <div class="col-sm-6">
+                                    <h4>Thermas a Gas o GLP</h4> De 7 y 12 litros por minuto
+                                </div>
+                                <div class="col-sm-6">
+                                    <img border="0" class="imagen-producto" src="images/Inse_12_Litros.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 producto">
+                                <div class="col-sm-6">
+                                    <h4>Inversores</h4> AC/DC
+                                </div>
+                                <div class="col-sm-6">
+                                    <img border="0" class="imagen-producto" src="images/inversor.JPG">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 producto">
+                                <div class="col-sm-6">
+                                    <h4>Bater&iacute;as</h4> Bater&iacute;as Selladas, libres de mantenimiento para UPS
+                                </div>
+                                <div class="col-sm-6">
+                                    <img border="0" class="imagen-producto" src="images/BATERI3.JPG">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 producto">
+                                <div class="col-sm-6">
+                                    <h4>UPS</h4> APC y Liebert, de diferentes potencias
+                                </div>
+                                <div class="col-sm-6">
+                                    <img border="0" class="imagen-producto" src="images/UPS_APC_Familia.JPG">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 producto">
-                            <div class="col-sm-6">
-                                <h4>Tableros El&eacute;ctricos (Fabricantes)</h4> Para distribuci&oacute;n el&eacute;ctrica
-                            </div>
-                            <div class="col-sm-6">
-                                <img border="0" class="imagen-producto" src="images/tablero.JPG">
-                            </div>
+                </section>
+                <section ng-show="tab.isSet(4)" ng-controller="ServiciosTabController as serviciosTab">
+                    <div class="col-md-8 col-lg-8">
+                        <div class="row">
+                            <h2>SERVICIOS</h2>
                         </div>
-                        <div class="col-sm-12 col-md-6 producto">
-                            <div class="col-sm-6">
-                                <h4>Thermas a Gas o GLP</h4> De 7 y 12 litros por minuto
-                            </div>
-                            <div class="col-sm-6">
-                                <img border="0" class="imagen-producto" src="images/Inse_12_Litros.jpg">
-                            </div>
+                        <div class="row">
+                            <ul class="nav nav-tabs">
+                                <li role="presentation" ng-class="{active:serviciosTab.isSet(1)}">
+                                    <a href ng-click="serviciosTab.setTab(1)">Inicio</a>
+                                </li>
+                                <li role="presentation" ng-class="{active:serviciosTab.isSet(2)}">
+                                    <a href ng-click="serviciosTab.setTab(2)">Reparaci&oacute;n y Mantenimiento</a>
+                                </li>
+                                <li role="presentation" ng-class="{active:serviciosTab.isSet(3)}">
+                                    <a href ng-click="serviciosTab.setTab(3)">Asesoramiento y Supervisi&oacute;n</a>
+                                </li>
+                                <li role="presentation" ng-class="{active:serviciosTab.isSet(4)}">
+                                    <a href ng-click="serviciosTab.setTab(4)">Otros</a>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 producto">
-                            <div class="col-sm-6">
-                                <h4>Inversores</h4> AC/DC
-                            </div>
-                            <div class="col-sm-6">
-                                <img border="0" class="imagen-producto" src="images/inversor.JPG">
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 producto">
-                            <div class="col-sm-6">
-                                <h4>Bater&iacute;as</h4> Bater&iacute;as Selladas, libres de mantenimiento para UPS
-                            </div>
-                            <div class="col-sm-6">
-                                <img border="0" class="imagen-producto" src="images/BATERI3.JPG">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 producto">
-                            <div class="col-sm-6">
-                                <h4>UPS</h4> APC y Liebert, de diferentes potencias
-                            </div>
-                            <div class="col-sm-6">
-                                <img border="0" class="imagen-producto" src="images/UPS_APC_Familia.JPG">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section ng-show="tab.isSet(4)" ng-controller="ServiciosTabController as serviciosTab">
-                <div class="col-md-8 col-lg-8">
-                    <div class="row">
-                        <h2>SERVICIOS</h2>
-                    </div>
-                    <div class="row">
-                        <ul class="nav nav-tabs">
-                            <li role="presentation" ng-class="{active:serviciosTab.isSet(1)}">
-                                <a href ng-click="serviciosTab.setTab(1)">Inicio</a>
-                            </li>
-                            <li role="presentation" ng-class="{active:serviciosTab.isSet(2)}">
-                                <a href ng-click="serviciosTab.setTab(2)">Reparaci&oacute;n y Mantenimiento</a>
-                            </li>
-                            <li role="presentation" ng-class="{active:serviciosTab.isSet(3)}">
-                                <a href ng-click="serviciosTab.setTab(3)">Asesoramiento y Supervisi&oacute;n</a>
-                            </li>
-                            <li role="presentation" ng-class="{active:serviciosTab.isSet(4)}">
-                                <a href ng-click="serviciosTab.setTab(4)">Otros</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="row" ng-show="serviciosTab.isSet(1)">
-                        <h4>
+                        <div class="row" ng-show="serviciosTab.isSet(1)">
+                            <h4>
                             Les ofrecemos el servicio correcto y oportuno, con mucha responsabilidad profesional y honradez, haciendo uso del equipamiento adecuado UPS, Estabilizadores, Transformadores de Aislamiento, Fuentes de Poder, L&aacute;mparas de Emergencia e Instalaciones el&eacute;ctricas con Tableros y Tomacorrientes polarizados, Pozos a Tierra  a fin de mejorar o proteger los sistemas el&eacute;ctricos y/o electr&oacute;nicos de la Empresas que usan Servidores, Computadoras, que requieren cumplir las Normas del C&oacute;digo de Electricidad ante cualquier Inspecci&oacute;n por Defensa Civil.
                         </h4>
-                    </div>
-                    <div class="row" ng-show="serviciosTab.isSet(2)">
-                        <h4>
+                        </div>
+                        <div class="row" ng-show="serviciosTab.isSet(2)">
+                            <h4>
                                                             <p>
                                 Reparaciones y mantenimientos de UPS y estabilizadores
                             </p>
@@ -254,9 +255,9 @@
                                 Mantenimiento de Equipos Electr&oacute;nicos Industriales
                             </p>
                                                         </h4>
-                    </div>
-                    <div class="row" ng-show="serviciosTab.isSet(3)">
-                        <h4>
+                        </div>
+                        <div class="row" ng-show="serviciosTab.isSet(3)">
+                            <h4>
                                                             <p>
                                 Asesoramiento T&eacute;cnico permanente por Ingenieros El&eacute;ctricos y Electr&oacute;nicos de amplia experiencia
                             </p>
@@ -267,9 +268,9 @@
                                 Supervisiones El&eacute;ctricas y Electr&oacute;nicas en Obras con el cumplimiento de las Normas del C&oacute;digo de Electricidad y los Est&aacute;ndares ISO 9001, 14001 y 18001, Normas del Gas Natural
                             </p>
                                                         </h4>
-                    </div>
-                    <div class="row" ng-show="serviciosTab.isSet(4)">
-                        <h4>
+                        </div>
+                        <div class="row" ng-show="serviciosTab.isSet(4)">
+                            <h4>
                                                             <p>
                                 Protocolos y Medici&oacute;n de Pozos a Tierra
                             </p>
@@ -289,70 +290,70 @@
                                 C&aacute;lculo de m&aacute;xima demanda para ampliaciones de carga el&eacute;ctrica
                             </p>
                                                         </h4>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <img class="image-displayed" ng-show="serviciosTab.isSet(1)" border="0" width="167" height="131" src="images/servicios_electronica.gif" />
-                    <img class="image-displayed" ng-show="serviciosTab.isSet(2)" border="0" width="167" height="183" src="images/tuerca.jpg" />
-                    <img class="image-displayed" ng-show="serviciosTab.isSet(3)" border="0" width="166" height="161" src="images/asesoriamiento.jpg" />
-                    <img class="image-displayed" ng-show="serviciosTab.isSet(4)" border="0" src="images/Medidor_De_Pozo_a_Tierra.JPG" width="167" height="190" hspace="10" />
-                </div>
-            </section>
-            <section ng-show="tab.isSet(5)">
-                <div class="col-md-12 col-lg-12">
-                    <h2>CONT&Aacute;CTENOS</h2>
-                </div>
-                <div class="col-md-12 col-lg-12">
-                    <div id="map-canvas"></div>
-                    <br/>
-                    <br/>
-                </div>
-                <div class="col-md-12 col-lg-12">
-                    <div class="row">
-                        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 text-right">
-                            Email:
-                        </div>
-                        <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
-                            <a href="mailto:mlcings@speedy.com.pe">mlcings@speedy.com.pe</a>
-                            <br/>
-                            <a href="mailto:ingenieros@speedy.com.pe">ingenieros@speedy.com.pe</a>
-                            <br/> Calle Comandante Carlos Arieta 1066 Oficina 104, Santa Beatriz - Lima (Altura entre cuadras 5 y 6 de la Av. Mariano Carranza)
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2">
-                            <img width="65" height="68" src="images/TELEFONO.GIF" align="right" />
+                    <div class="col-md-4 col-lg-4">
+                        <img class="image-displayed" ng-show="serviciosTab.isSet(1)" border="0" width="167" height="131" src="images/servicios_electronica.gif" />
+                        <img class="image-displayed" ng-show="serviciosTab.isSet(2)" border="0" width="167" height="183" src="images/tuerca.jpg" />
+                        <img class="image-displayed" ng-show="serviciosTab.isSet(3)" border="0" width="166" height="161" src="images/asesoriamiento.jpg" />
+                        <img class="image-displayed" ng-show="serviciosTab.isSet(4)" border="0" src="images/Medidor_De_Pozo_a_Tierra.JPG" width="167" height="190" hspace="10" />
+                    </div>
+                </section>
+                <section ng-show="tab.isSet(5)">
+                    <div class="col-md-12 col-lg-12">
+                        <h2>CONT&Aacute;CTENOS</h2>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div id="map-canvas"></div>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 text-right">
+                                Email:
+                            </div>
+                            <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
+                                <a href="mailto:mlcings@speedy.com.pe">mlcings@speedy.com.pe</a>
+                                <br/>
+                                <a href="mailto:ingenieros@speedy.com.pe">ingenieros@speedy.com.pe</a>
+                                <br/> Calle Comandante Carlos Arieta 1066 Oficina 104, Santa Beatriz - Lima (Altura entre cuadras 5 y 6 de la Av. Mariano Carranza)
+                            </div>
                         </div>
-                        <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
-                            Telefono: (511) 2655019
-                            <br/> Celulares: (51) 999107032 RPM *809698 / (51) 999720530 RPM *809611
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2">
+                                <img width="65" height="68" src="images/TELEFONO.GIF" align="right" />
+                            </div>
+                            <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
+                                Telefono: (511) 2655019
+                                <br/> Celulares: (51) 999107032 RPM *809698 / (51) 999720530 RPM *809611
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-3 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 ">
+                                <strong>Horario de Atenci&oacute;n:</strong>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 text-right">
+                                Lun-Vie:
+                            </div>
+                            <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
+                                de 9 am a 6 pm (horario corrido)
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 text-right">
+                                Sab:
+                            </div>
+                            <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
+                                de 9 am a 1 pm
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-3 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 ">
-                            <strong>Horario de Atenci&oacute;n:</strong>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 text-right">
-                            Lun-Vie:
-                        </div>
-                        <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
-                            de 9 am a 6 pm (horario corrido)
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 text-right">
-                            Sab:
-                        </div>
-                        <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
-                            de 9 am a 1 pm
-                        </div>
-                    </div>
-                </div>
-    </div>
-    </section>
-    </main>
+        </div>
+        </section>
+        </main>
     </div>
     <div class="sb-slidebar sb-left">
         <nav>
@@ -371,6 +372,7 @@
                 </li>
             </ul>
         </nav>
+    </div>
     </div>
 </body>
 
