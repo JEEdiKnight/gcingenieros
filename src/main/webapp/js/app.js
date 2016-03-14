@@ -10,7 +10,7 @@
         this.setTab = function (tabId) {
             this.tab = tabId;
             if (tabId === 5 && !this.map) {
-                var myLatLng = new google.maps.LatLng(-12.076033, -77.004569),
+                var myLatLng = new google.maps.LatLng(-12.0761515, -77.0237272),
                     mapOptions = {
                         center: myLatLng,
                         zoom: 16,
